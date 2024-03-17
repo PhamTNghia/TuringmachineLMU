@@ -1,0 +1,41 @@
+.label-blue-theme {
+    -fx-background-color: #ffffff; /* Blue background color */
+    -fx-text-fill: #3498db; /* White text color */
+    -fx-font-size: 14px; /* Adjust font size as needed */
+    -fx-font-weight: bold; /* Optionally set font weight to bold */
+    -fx-border-color: #3498db; /* Blue border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Rounded corners */
+}
+
+.label-red-theme {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #ff2c00;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-color: #ff2c00;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-alignment: CENTER;
+}
+
+.label-purple-theme {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #d500ff;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-color: #d500ff;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-alignment: CENTER;
+}
+
+.rulesLabel {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #ff2c00;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-color: #ff2c00;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}

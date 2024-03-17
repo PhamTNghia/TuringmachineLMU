@@ -1,0 +1,39 @@
+.button-style {
+    -fx-display: inline-block;
+    -fx-outline: 0;
+    -fx-cursor: hand;
+    -fx-border-radius: 6px;
+    -fx-border-width: 2px;
+    -fx-border-color: #ff2c00; /* Red */
+    -fx-text-fill: #fff;
+    -fx-background-color: #ff2c00; /* Red */
+    -fx-padding: 8px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.07), 0, 2, 4, 0), dropshadow(gaussian, rgba(0, 0, 0, 0.05), 0, 1, 1.5, 0);
+    -fx-font-weight: 800;
+    -fx-min-height: 40px;
+}
+
+.button-style:hover {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ff2c00; /* Red */
+}
+
+.button-purple-style {
+    -fx-display: inline-block;
+    -fx-outline: 0;
+    -fx-cursor: hand;
+    -fx-border-radius: 6px;
+    -fx-border-width: 2px;
+    -fx-border-color: #d500ff;
+    -fx-text-fill: #fff;
+    -fx-background-color: #d500ff;
+    -fx-padding: 8px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.07), 0, 2, 4, 0), dropshadow(gaussian, rgba(0, 0, 0, 0.05), 0, 1, 1.5, 0);
+    -fx-font-weight: 800;
+    -fx-min-height: 40px;
+}
+
+.button-purple-style:hover {
+    -fx-background-color: transparent;
+    -fx-text-fill: #d500ff;
+}

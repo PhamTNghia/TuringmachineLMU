@@ -16,7 +16,7 @@ import java.net.URL;
 import java.util.Objects;
 import java.util.ResourceBundle;
 
-public class UniversalView {
+public class SandBoxView {
     @FXML
     TextField nOStatesTextField,accStateTextField,rejStateTextField,alphabetTextField,readTextField,writeTextField,newStateTextField;
     @FXML
@@ -237,6 +237,6 @@ public class UniversalView {
 
     public void startClicked(ActionEvent event) {
         saveRulesForUnviersalRun();
-        SceneNavigator.navigateTo(SceneNavigator.Location.UNIVERSAL_RUN);
+        SceneNavigator.navigateTo(SceneNavigator.Location.SANDBOX_RUN);
     }
 }

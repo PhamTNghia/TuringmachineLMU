@@ -351,6 +351,32 @@ public class ExampleLibrary {
                 "\n" +
                 "q4,_,_,_\n" +
                 "q5,_,_,1,-,-,-")),
+        MIRRROR_STRING(new String(
+                "name: Mirror_string\n" +
+                        "init: 0\n" +
+                        "accept: acc\n" +
+                        "\n" +
+                "0 a _ r 1a\n"+
+                "0 a _ r t\n"+
+                "0 b _ r 1b\n"+
+                "0 _ _ r acc\n"+
+                "1a a a r 1a\n"+
+                "1a b b r 1a\n"+
+                "1b a a r 1b\n"+
+                "1b b b r 1b\n"+
+                "1a _ _ l 2a\n"+
+                "1b _ _ l 2b\n"+
+                "2a a _ l 3\n"+
+                "2a b _ . rej\n"+
+                "2b b _ l 3\n"+
+                "2b a _ . rej\n"+
+                "3 a a l 3\n"+
+                "3 b b l 3\n"+
+                "3 _ _ r 0\n"+
+                "t a a r t'\n"+
+                "t a a r t\n"+
+                "t' b b . rej\n"
+        )),
         EVEN_LENGTH_A(new String(
                 "name: Even_length_a\n" +
                 "init: q0\n" +
@@ -377,7 +403,10 @@ public class ExampleLibrary {
                 "\n" +
                 "q3,_\n" +
                 "qAccept,>\n"
-                ));
+                )),
+        EVEN_AMOUNT_0(new String(
+                "10001110001010110101110011010101011100101101011011100110110110110111001011101110111011"
+        ));
 
         private final String example;
 

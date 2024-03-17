@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" styleClass="dark-background" stylesheets="@cssFiles/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.turingmachine.ViewController.CreditView">
+   <children>
+      <VBox fx:id="text" alignment="CENTER" layoutX="177.0" layoutY="738.0" prefHeight="368.0" prefWidth="847.0">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="PROGRAMMED BY" textAlignment="CENTER" wrappingWidth="415.13671875">
+               <font>
+                  <Font name="Times New Roman Bold" size="36.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="PHAM TRONG NGHIA" textAlignment="CENTER" wrappingWidth="415.13671875">
+               <font>
+                  <Font name="Times New Roman" size="36.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="PROJECT" textAlignment="CENTER" wrappingWidth="415.13671875">
+               <font>
+                  <Font name="Times New Roman Bold" size="36.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="120.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Simulation of and translations between Turing machines" textAlignment="CENTER" wrappingWidth="493.13671875">
+               <font>
+                  <Font name="Times New Roman" size="36.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="SPECIAL THANK TO" textAlignment="CENTER" wrappingWidth="415.13671875">
+               <font>
+                  <Font name="Times New Roman Bold" size="36.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="120.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="PROF.DR.JASMIN BLANCHETTE" textAlignment="CENTER" wrappingWidth="562.13671875">
+               <font>
+                  <Font name="Times New Roman" size="36.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

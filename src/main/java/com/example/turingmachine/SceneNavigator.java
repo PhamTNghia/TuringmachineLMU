@@ -19,17 +19,25 @@ public class SceneNavigator {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        HelloApplication.getPrimaryStage().setTitle("Hello!");
+        HelloApplication.getPrimaryStage().setTitle("Turing machine");
         HelloApplication.getPrimaryStage().setScene(scene);
     }
 
 
     public enum Location {
+        START_MENU("startMenuView"),
+        INSTRUCTION("instructionView"),
+        CREDIT("creditView"),
         ONE_TAPE("oneTapeView"),
         TWO_TAPE("twoTapeView"),
         THREE_TAPE("threeTapeView"),
         MULTI_TRACKING_3_TAPE("multiTracking3TapeView"),
-        NON_DETERMINISTIC("Non_DeterministicView");
+        NON_DETERMINISTIC("Non_DeterministicView"),
+        MULTIPLE_HEAD("multipleHeadView"),
+        MULTI_DIMENSIONAL("multiDimensionalView"),
+        SANDBOX("sandBoxView"),
+        SANDBOX_RUN("sandBoxRunView"),
+        UNIVERSAL("universalView");
 
         private final String fileName;
 
